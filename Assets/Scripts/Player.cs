@@ -7,6 +7,11 @@ public class Player : MonoBehaviour
     public float moveSpeed;
 
     public Rigidbody2D rig2D;
+    
+    public float moveSpeed;
+    public Rigidbody2D rig2D;
+    float moveX;
+    float moveY;
     // Start is called before the first frame update
     void Start()
     {
